@@ -1,0 +1,29 @@
+{
+  "name": "object-object",
+  "version": "1.0.0",
+  "description": "Object team",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "front": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\"  \"npm run front\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.epam.com:Ivan_Etkalo/object-object.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^5.0.0",
+    "nodemon": "^2.0.1"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.13",
+    "socket.io": "^2.3.0"
+  }
+}
