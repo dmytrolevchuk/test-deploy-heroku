@@ -1,8 +1,8 @@
 {
   "name": "object-object",
   "version": "1.0.0",
-  "description": "Object team",
-  "main": "index.js",
+  "description": "Object team dfdfd",
+  "main": "server.js",
   "scripts": {
     "server": "nodemon server.js",
     "front": "npm run start --prefix client",
